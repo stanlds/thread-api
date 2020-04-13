@@ -83,3 +83,15 @@ void cuenta (char *nombre) {
    *  ¿El resultado obtenido es acorde a lo que usted esperaba?
    Describa la técnica que usó para realizar la medición del tiempo. ¿Cuáles son las debilidades de esta técnica? ¿Existe otra forma de medir el tiempo de ejecución de un programa?
 
+6. El profesor de un curso desea un programa en lenguaje C que calcule la desviación estándar (símbolo σ o s) de las notas obtenidas por sus estudiantes en el curso 
+
+![formula](desviacion_estandar.jpg)
+
+**Requisitos**:
+* El número de notas es variable (se debe usar memoria dinámica).
+* El programa debe crear tantos hilos como se especifique en el parámetro de entrada cantidad_hilos, se debe ejecutar así: 
+
+```./nombre_ejecutable fichero_notas.csv cantidad_hilos```
+
+* Para calcular la desviación estándar, implemente la función: ```calculate_standard_deviation()``` 
+
