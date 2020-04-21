@@ -1,0 +1,1 @@
+Los recursos asignados por el sistema operativo a un hilo son liberados cuando el hilo termina. Laterminaci ́on del hilo se produce cuando la funci ́on que est ́a ejecutando termina, cuando ejecuta unreturno cuando ejecuta la funci ́onpthreadexit. Si la funci ́on no ejecuta ni return nipthreadexit, se ejecutaautom ́aticamente unreturn 0
